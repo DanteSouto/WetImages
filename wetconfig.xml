@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<MaxWidth>1024</MaxWidth>
+	<MaxHeight>768</MaxHeight>
+	<WatermarkFullPath>watermark.png</WatermarkFullPath>
+	<WatermarkScale>0.2</WatermarkScale>
+	<OutputFolder>ComLogo</OutputFolder>
+</config>
