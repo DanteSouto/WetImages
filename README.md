@@ -11,17 +11,17 @@ Enjoi.
 To modify the settings, edit the configuration file wetimages.xml.
 
 The resulting image with the watermark will have its height or width limited by the MaxWidth and/or MaxHeight tag.
->	<MaxWidth>1024</MaxWidth>
->	<MaxHeight>768</MaxHeight>
+>	&lt;MaxWidth&gt;1024&lt;/MaxWidth&gt;
+>	&lt;MaxHeight&gt;768&lt;/MaxHeight&gt;
 
 The watermark must be a 'png' file, and if a full path is not provided, the program will assume it is located in the same folder as the executable.
->	<WatermarkFullPath>watermark.png</WatermarkFullPath>
+>	&lt;WatermarkFullPath&gt;watermark.png&lt;/WatermarkFullPath&gt;
 
 The watermark scale in relation to the image size, where 0.2 corresponds to 20% of the image size.
->	<WatermarkScale>0.2</WatermarkScale>
+>	&lt;WatermarkScale&gt;0.2&lt;/WatermarkScale&gt;
 
 The name of the folder that will be used or created to save the image with the watermark, based on the provided image path.
->	<OutputFolder>ComLogo</OutputFolder>
+>	&lt;OutputFolder&gt;ComLogo&lt;/OutputFolder&gt;
 
 ## Meta
 
